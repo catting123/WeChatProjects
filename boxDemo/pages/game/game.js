@@ -206,9 +206,9 @@ Page({
       })
     }
   },
-  restartGame: function() {
+  restartGame: function () {
     // 初始化地图数据
-    this.initMap(this.data.level-1)
+    this.initMap(this.data.level - 1)
     // 绘制画布内容
     this.drawCanvas()
   }
